@@ -13,7 +13,7 @@ class FizzBuzz {
         }
     }
 
-    private static int doFizzBuzz(int i) {
+    public static int doFizzBuzz(int i) {
         // Find out which numbers divide i.
         // divisibleBy3 and divisibleBy5 are variables that are saving the bool value of True or False
         boolean divisibleBy3 = i % 3 == 0;
